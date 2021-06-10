@@ -7,6 +7,7 @@ resource "azurerm_resource_group" "example" {
   location = "West Europe"
   tags = {
     "department" = "infra"
-  }
+    "terraforn"  = "true"
+   }
 
 }
