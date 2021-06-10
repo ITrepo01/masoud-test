@@ -8,6 +8,7 @@ resource "azurerm_resource_group" "example" {
   tags = {
     "department" = "infra"
     "terraforn"  = "true"
+    "division"  = "IT"
    }
 
 }
